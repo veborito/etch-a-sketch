@@ -1,16 +1,25 @@
+ body {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
  .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-direction: column;
+  flex: 0 0 auto;
+  border: 5px solid black;
+  width: 650px;
+  height: 650px;
 }
 
-.item {
-  flex: 1 1 200px;
-  background-color: lightblue;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #ccc;
+.line {
+  display: flex;
+  flex: 1 1 auto;
 }
-* {
-  box-sizing: border-box;
+
+.column {
+  flex: 1 1 auto;
+  background-color: rgb(193, 243, 252);
 }
